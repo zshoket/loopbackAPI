@@ -1,0 +1,37 @@
+{
+    "name": "risiko",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "name": {
+        "type": "string",
+        "required": true
+      },
+      "unternehmen_id": {
+        "type": "string",
+        "required": true
+      },
+      "dimension_id": {
+        "type": "string",
+        "required": true
+      },
+      "eintritWahr": {
+        "type": "string",
+        "required": true
+      },
+      "schadenshohe": {
+        "type": [
+          "string"
+        ]
+      }
+    },
+    
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

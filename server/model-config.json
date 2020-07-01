@@ -38,5 +38,9 @@
   "documents": {
     "dataSource": "db",
     "public": true
+  },
+  "risiko": {
+    "dataSource": "db",
+    "public": true
   }
 }

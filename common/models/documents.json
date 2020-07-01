@@ -10,7 +10,7 @@
       "type": "string",
       "required": true
     },
-    "unternehmen": {
+    "unternehmen_id": {
       "type": "string",
       "required": true
     },
@@ -45,19 +45,19 @@
       ],
       "required": true
     },
-    "veränderungenMensch": {
+    "veraenderungenMensch": {
       "type": [
         "string"
       ],
       "required": true
     },
-    "veränderungenOrganisation": {
+    "veraenderungenOrganisation": {
       "type": [
         "string"
       ],
       "required": true
     },
-    "veränderungenTechnologie": {
+    "veraenderungenTechnologie": {
       "type": [
         "string"
       ]
