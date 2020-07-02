@@ -14,7 +14,7 @@
         "type": "string",
         "required": true
       },
-      "dimension_id": {
+      "dimension": {
         "type": "string",
         "required": true
       },
@@ -23,9 +23,9 @@
         "required": true
       },
       "schadenshohe": {
-        "type": [
-          "string"
-        ]
+        "type": 
+          "string",
+          "required": true
       }
     },
     
