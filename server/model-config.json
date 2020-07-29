@@ -42,5 +42,9 @@
   "risiko": {
     "dataSource": "db",
     "public": true
+  },
+  "charting": {
+    "dataSource": "db",
+    "public": true
   }
 }
