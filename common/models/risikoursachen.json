@@ -1,0 +1,29 @@
+{
+  "name": "Risikoursachen",
+  "plural": "risikoursachens",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "bereich": {
+      "type": "string",
+      "required": true
+    },
+    "risikoId": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

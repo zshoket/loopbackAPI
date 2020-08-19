@@ -1,5 +1,5 @@
 {
-  "name": "risiko",
+  "name": "unternehmen",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,32 +10,23 @@
       "type": "string",
       "required": true
     },
-    "dimension": {
-      "type": "string",
-      "required": true
-    },
-    "eintritWahr": {
-      "type": "string",
-      "required": true
-    },
-    "schadenshohe": {
-      "type": "string",
-      "required": true
+    "logo": {
+      "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "risikoursachens": {
+    "risikos": {
       "type": "hasMany",
-      "model": "Risikoursachen",
+      "model": "risiko",
       "foreignKey": "",
       "options": {
         "nestRemoting": true
       }
     },
-    "risikoauswirkungs": {
+    "documents": {
       "type": "hasMany",
-      "model": "Risikoauswirkung",
+      "model": "documents",
       "foreignKey": "",
       "options": {
         "nestRemoting": true
