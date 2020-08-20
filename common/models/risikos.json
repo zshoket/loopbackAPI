@@ -21,10 +21,23 @@
     "schadenshohe": {
       "type": "string",
       "required": true
+    },
+    "risikoursachenId": {
+      "type": [
+        "object"
+      ]
     }
   },
   "validations": [],
   "relations": {
+    "risikoauswirkungs": {
+      "type": "hasMany",
+      "model": "Risikoauswirkung",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
     "risikoursachens": {
       "type": "hasMany",
       "model": "Risikoursachen",
@@ -33,9 +46,9 @@
         "nestRemoting": true
       }
     },
-    "risikoauswirkungs": {
-      "type": "hasMany",
-      "model": "Risikoauswirkung",
+    "documents": {
+      "type": "belongsTo",
+      "model": "documents",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

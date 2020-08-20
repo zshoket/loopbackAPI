@@ -58,6 +58,6 @@
   },
   "unternehmen": {
     "dataSource": "db",
-    "public": false
+    "public": true
   }
 }

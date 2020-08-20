@@ -1,5 +1,5 @@
 {
-  "name": "loopbackExample",
+  "name": "loopbackMongoDB",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
@@ -29,6 +29,6 @@
     "type": "",
     "url": ""
   },
-  "license": "UNLICENSED",
-  "description": "loopbackExample"
+  "license": "",
+  "description": "loopbackMongoDB"
 }
