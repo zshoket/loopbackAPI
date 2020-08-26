@@ -80,6 +80,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "risikos": {
+      "type": "hasMany",
+      "model": "risiko",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
