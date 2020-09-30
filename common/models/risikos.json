@@ -47,7 +47,7 @@
       }
     },
     "documents": {
-      "type": "belongsTo",
+      "type": "hasMany",
       "model": "documents",
       "foreignKey": "",
       "options": {
