@@ -59,5 +59,9 @@
   "unternehmen": {
     "dataSource": "db",
     "public": true
+  },
+  "jointData": {
+    "dataSource": "db",
+    "public": true
   }
 }
