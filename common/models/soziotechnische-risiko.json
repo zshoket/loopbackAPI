@@ -1,0 +1,50 @@
+{
+  "name": "soziotechnischeRisiko",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "dimension": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "kurzbeschreibung": {
+      "type": "string"
+    },
+    "stossrichtung": {
+      "type": [
+        "string"
+      ]
+    },
+    "riskLevel": {
+      "type": "string"
+    },
+    "charRisikoursachen": {
+      "type": [
+        "string"
+      ]
+    },
+    "charRisiken": {
+      "type": [
+        "string"
+      ]
+    },
+    "charRisikoauswirkungen": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
