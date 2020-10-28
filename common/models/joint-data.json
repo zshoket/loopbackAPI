@@ -1,0 +1,31 @@
+{
+  "name": "jointData",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "riskName": {
+      "type": "string",
+      "required": true
+    },
+    "risikoUrsachen": {
+      "type": [
+        "string"
+      ]
+    },
+    "risikoAuswirkung": {
+      "type": [
+        "string"
+      ]
+    },
+    "riskDocument": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

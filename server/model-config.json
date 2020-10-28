@@ -60,7 +60,11 @@
     "dataSource": "db",
     "public": true
   },
+<<<<<<< HEAD
   "soziotechnischeRisiko": {
+=======
+  "jointData": {
+>>>>>>> 4ac7d32c18db1ec5d1f1428d00c47c0e0ef4106e
     "dataSource": "db",
     "public": true
   }
