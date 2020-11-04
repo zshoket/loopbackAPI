@@ -51,14 +51,6 @@
       "options": {
         "nestRemoting": true
       }
-    },
-    "risikoursachens": {
-      "type": "hasMany",
-      "model": "Risikoursachen",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
     }
   },
   "acls": [],
