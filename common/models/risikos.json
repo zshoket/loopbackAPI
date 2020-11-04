@@ -11,21 +11,21 @@
       "required": true
     },
     "dimension": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "eintritWahr": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "schadenshohe": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "risikoursachenId": {
       "type": [
         "object"
       ]
+    },
+    "identifikator": {
+      "type": "string"
     }
   },
   "validations": [],
@@ -49,6 +49,14 @@
     "documents": {
       "type": "hasMany",
       "model": "documents",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "risikoFelders": {
+      "type": "hasMany",
+      "model": "risikoFelder",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

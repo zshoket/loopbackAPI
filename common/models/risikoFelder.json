@@ -1,5 +1,5 @@
 {
-  "name": "soziotechnischeRisiko",
+  "name": "risikoFelder",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -13,8 +13,7 @@
     "dimension": {
       "type": [
         "string"
-      ],
-      "required": true
+      ]
     },
     "kurzbeschreibung": {
       "type": "string"
@@ -44,7 +43,24 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "risikos": {
+      "type": "hasMany",
+      "model": "risiko",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "risikoursachens": {
+      "type": "hasMany",
+      "model": "Risikoursachen",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

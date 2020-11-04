@@ -8,17 +8,18 @@
   },
   "properties": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "bereich": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "risikoId": {
       "type": [
         "object"
       ]
+    },
+    "identifikator": {
+      "type": "string"
     }
   },
   "validations": [],
@@ -34,6 +35,14 @@
     "risikos": {
       "type": "hasMany",
       "model": "risiko",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "risikoFelders": {
+      "type": "hasMany",
+      "model": "risikoFelder",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

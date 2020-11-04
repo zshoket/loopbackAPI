@@ -15,6 +15,10 @@
       "type": [
         "object"
       ]
+    },
+    "identifikator": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
