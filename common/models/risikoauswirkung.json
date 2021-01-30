@@ -18,7 +18,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "risikos": {
+      "type": "hasMany",
+      "model": "risiko",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
