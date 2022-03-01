@@ -64,6 +64,10 @@
     "dataSource": "db",
     "public": true
   },
+  "riskType": {
+    "dataSource": "db",
+    "public": true
+  },
   "jointData": {
     "dataSource": "db",
     "public": true

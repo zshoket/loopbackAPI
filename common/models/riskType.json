@@ -1,0 +1,39 @@
+{
+  "name": "riskType",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "dimension": {
+      "type": [
+        "string"
+      ]
+    },
+    "activeSum": {
+      "type": "string"
+    },
+
+    "passiveSum": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "risikofelder": {
+      "type": "hasMany",
+      "model": "risikoFelder",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
