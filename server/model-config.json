@@ -72,4 +72,14 @@
     "dataSource": "db",
     "public": true
   }
+  ,
+  "massNahmen": {
+    "dataSource": "db",
+    "public": true
+  }
+  ,
+  "eventsZuRisikos": {
+    "dataSource": "db",
+    "public": true
+  }
 }

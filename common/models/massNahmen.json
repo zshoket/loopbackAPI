@@ -1,0 +1,37 @@
+{
+  "name": "massNahmen",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "massName": {
+      "type": "string",
+      "required": true
+    },
+    "dimension": {
+      "type": [
+        "string"
+      ]
+    },
+    "risikoRef": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "risikos": {
+      "type": "hasMany",
+      "model": "eventsZuRisikos",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

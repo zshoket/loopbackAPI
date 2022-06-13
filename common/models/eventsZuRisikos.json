@@ -1,0 +1,37 @@
+{
+  "name": "eventsZuRisikos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "risikoName": {
+      "type": "string",
+      "required": true
+    },
+    "eventList": {
+      "type": [
+        "string"
+      ]
+    },
+    "massNahmListe": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "risikos": {
+      "type": "hasMany",
+      "model": "massNahmen",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
